@@ -1,0 +1,24 @@
+.parent{
+    display: flex;
+    /* flex-direction: column; */
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+label{
+    color: black;
+    font-size: 1.6rem;
+}
+
+button{
+    border: none;
+    padding: 1em 2em;
+    background-color: darkred;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
